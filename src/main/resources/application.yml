@@ -1,0 +1,17 @@
+server:
+  port: 8189
+  servlet:
+    context-path:
+spring:
+  application:
+    name: javapro-serializer33
+  jackson:
+  #   default-property-inclusion: non_null
+  #   default-property-inclusion: non_empty
+  serialization:
+    write-dates-as-timestamps: true
+  mvc:
+    converters:
+      #   preferred-json-mapper: gson
+      preferred-json-mapper: jackson
+
