@@ -11,5 +11,4 @@ import java.util.List;
 @Data
 public class SessionDto {
     private List<ChatDto> chat_sessions;
-
 }

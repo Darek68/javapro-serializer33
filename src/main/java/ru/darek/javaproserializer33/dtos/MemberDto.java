@@ -18,15 +18,3 @@ public class MemberDto {
     private String thumb_path;
 
 }
-/*
-{
-          "first":"Moskow",
-          "handle_id":934,
-          "image_path":"N:\\Tenorshare iCareFone\\Temp\\AnalysisTemp\\113.jpg",
-          "last":"Saint-Petersburg",
-          "middle":"Bologoe",
-          "phone_number":"Apple",
-          "service":"SMS",
-          "thumb_path":"N:\\Tenorshare iCareFone\\Temp\\AnalysisTemp\\113.thumb"
-        }
- */
