@@ -1,14 +1,16 @@
 package ru.darek.javaproserializer33.dtos;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
 public class SessionDto {
-    private List<ChatDto> chat_sessions;
+    @JsonProperty("chat_sessions")
+    private List<ChatDto> chatSessions;
 }
